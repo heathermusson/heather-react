@@ -86,4 +86,7 @@ module.exports = {
             template: './public/index.html'
         }),
     ],
+    output: {
+        publicPath: "/heather-react",
+    },
 };
