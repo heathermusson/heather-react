@@ -9,7 +9,10 @@ import Entry from '../components/Entry/Entry.jsx';
 
 import Background from '../../../public/images/background.jpg';
 import Author from '../../../public/images/author.jpg';
+import Shopify from '../../../public/images/shopify.png';
+import Forest from '../../../public/images/forest.png';
 import Housing from "../../../public/images/housing.jpg";
+import Smile from "../../../public/images/smile.png";
 import Foodwaste from "../../../public/images/foodwaste.jpg";
 import Connect5 from "../../../public/images/connect5.jpg";
 
@@ -35,6 +38,28 @@ class HomePage extends Component {
                             <div className={style.row}>
                                 <div className={style.col4}>
                                     <Entry  
+                                        link="https://devpost.com/software/forest-zfr4ye" 
+                                        isExternal={true}
+                                        image={Forest}
+                                        type="Project" 
+                                        title="Forest." 
+                                        description="Contact tracing in hospitals is undeniably lack, with nurses often writing tracking on pieces of paper - we aim to fix this." 
+                                        btn="More"
+                                    />
+                                </div>
+                                <div className={style.col4}>
+                                    <Entry  
+                                        link="https://www.shopify.com/" 
+                                        isExternal={true}
+                                        image={Shopify}
+                                        type="Work" 
+                                        title="Shopify" 
+                                        description="Web Developer" 
+                                        btn="In progress"
+                                    />
+                                </div>
+                                <div className={style.col4}>
+                                    <Entry  
                                         link="https://github.com/heathermusson/UWHousing" 
                                         isExternal={true}
                                         image={Housing}
@@ -42,6 +67,17 @@ class HomePage extends Component {
                                         title="UWHousing" 
                                         description="A centralized system that helps students find short-term housing and post their own listings." 
                                         btn="In progress"
+                                    />
+                                </div>
+                                <div className={style.col4}>
+                                    <Entry  
+                                        link="smile" 
+                                        isExternal={false}
+                                        image={Smile}
+                                        type="Work" 
+                                        title="Smile.io" 
+                                        description="Full Stack Web Developer" 
+                                        btn="More"
                                     />
                                 </div>
                                 <div className={style.col4}>

@@ -1,0 +1,54 @@
+.heroWrap {
+    background-color: #ececec;
+    //background-image: url("/images/background.jpg");
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    z-index: 0; 
+}
+
+.heroContainer {
+    height: 50vh;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heroWrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .7;
+    background: #fff;
+    z-index: 0; 
+}
+
+.heroWrap.heroWrap-2 .overlay {
+    opacity: .7; 
+}
+
+.heroWrap .text {
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 500; 
+    width: 65%;
+}
+
+.heroWrap .text h1 {
+    letter-spacing: 1px;
+    font-weight: 900; 
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.heroWrap .text .btnCustom {
+    font-weight: 400;
+    color: #777;
+    border-bottom: 2px solid #777; 
+}
