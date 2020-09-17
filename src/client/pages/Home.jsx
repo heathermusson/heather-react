@@ -41,6 +41,18 @@ class HomePage extends Component {
               <div className={style.row}>
                 <div className={style.col4}>
                   <Entry
+                    link="https://medium.com/@hmusson/my-summer-as-an-intern-at-shopify-80423bf25e95"
+                    showLink={true}
+                    isExternal={true}
+                    image={Shopify}
+                    type="Work"
+                    title="Shopify"
+                    description="Web Developer"
+                    btn="More"
+                  />
+                </div>
+                <div className={style.col4}>
+                  <Entry
                     link="https://github.com/heathermusson/heather-react"
                     isExternal={true}
                     image={Heather}
@@ -59,18 +71,6 @@ class HomePage extends Component {
                     title="Forest"
                     description="Contact tracing in hospitals is undeniably lack, with nurses often writing tracking on pieces of paper - we aim to fix this."
                     btn="More"
-                  />
-                </div>
-                <div className={style.col4}>
-                  <Entry
-                    link="https://www.shopify.com/"
-                    showLink={false}
-                    isExternal={true}
-                    image={Shopify}
-                    type="Work"
-                    title="Shopify"
-                    description="Web Developer"
-                    btn="In progress"
                   />
                 </div>
                 <div className={style.col4}>
