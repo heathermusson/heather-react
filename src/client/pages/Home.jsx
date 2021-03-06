@@ -18,6 +18,7 @@ import Foodwaste from "../../../public/images/foodwaste.jpg";
 import Brisk from '../../../public/images/brisk.png';
 import PharmAchieve from '../../../public/images/pharmachieve.png';
 import Connect5 from "../../../public/images/connect5.jpg";
+import Facebook from "../../../public/images/facebook.png";
 
 import { FaAngleRight } from 'react-icons/fa';
 
@@ -32,20 +33,31 @@ class HomePage extends Component {
             <div>
                 <h2 className={style.subheading}>Hello I'm</h2>
                 <h1 className={style.heading}>Heather Musson</h1>
-                <p>I'm a third year software engineering student at the University of Waterloo, with an interest in web development and design, and experience working with a wide variety of technologies.</p>
+                <p>I'm a fourth year software engineering student at the University of Waterloo, with an interest in web development and design, and experience working with a wide variety of technologies.</p>
                 <p><Link className={style.btnCustom} to='/about'>More About Me <FaAngleRight /></Link></p>
             </div>
           </Hero>
           <section className={style.section}>
             <div class="container">
               <div className={style.row}>
+              <div className={style.col4}>
+                  <Entry
+                    showLink={false}
+                    isExternal={false}
+                    image={Facebook}
+                    type="Internship"
+                    title="Facebook"
+                    description="Front End Engineer"
+                    btn="In Progress"
+                  />
+                </div>
                 <div className={style.col4}>
                   <Entry
                     link="https://medium.com/@hmusson/my-summer-as-an-intern-at-shopify-80423bf25e95"
                     showLink={true}
                     isExternal={true}
                     image={Shopify}
-                    type="Work"
+                    type="Internship"
                     title="Shopify"
                     description="Web Developer"
                     btn="More"
@@ -89,7 +101,7 @@ class HomePage extends Component {
                     link="smile"
                     isExternal={false}
                     image={Smile}
-                    type="Work"
+                    type="Internship"
                     title="Smile.io"
                     description="Full Stack Web Developer"
                     btn="More"
@@ -112,7 +124,7 @@ class HomePage extends Component {
                     showLink={true}
                     isExternal={true}
                     image={Brisk}
-                    type="Work"
+                    type="Internship"
                     title="Brisk Synergies"
                     description="Full Stack Developer"
                     btn="More"
@@ -124,7 +136,7 @@ class HomePage extends Component {
                     showLink={false}
                     isExternal={true}
                     image={PharmAchieve}
-                    type="Work"
+                    type="Internship"
                     title="PharmAchieve"
                     description="Full Stack Web Developer"
                     btn="Completed"

@@ -5,8 +5,6 @@ import style from '../styles/Main.less';
 import SideBar from '../components/SideBar/SideBar.jsx';
 import Social from '../components/Social/Social.jsx';
 
-import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithubAlt, FaAngleRight } from 'react-icons/fa';
-
 class ContactPage extends Component {
   render() {
     return (
