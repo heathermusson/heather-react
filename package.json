@@ -50,7 +50,7 @@
     "@shopify/polaris": "^4.27.0",
     "axios": "~0.21.1",
     "babel-polyfill": "^6.26.0",
-    "body-parser": "~1.18.3",
+    "body-parser": "~1.20.1",
     "bootstrap": "^4.6.0",
     "browser-cookies": "^1.2.0",
     "file-loader": "^5.1.0",
